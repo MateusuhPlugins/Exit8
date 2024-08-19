@@ -1,0 +1,12 @@
+name: Exit8
+version: '1.0'
+main: me.mateusu.exit8.Main
+api-version: '1.20'
+depend: [Citizens]
+commands:
+  anomalia:
+    description: Comandos para gerenciar anomalias
+    usage: /anomalia setspawn | /anomalia list | /anomalia setnpc [n| /anomalia setlost [n| /anomalia setwin [n| /anomalia reload
+    permission: anomalia
+  enter:
+    description: Comando para entrar no jogo e inicia-lo.
